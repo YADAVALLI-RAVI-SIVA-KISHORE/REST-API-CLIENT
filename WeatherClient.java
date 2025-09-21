@@ -1,5 +1,3 @@
-package com.rest_API_client;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -71,3 +69,4 @@ public class WeatherClient {
         return response.toString();
     }
 }
+
